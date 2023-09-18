@@ -115,19 +115,19 @@ function ContactPlatform() {
               <div className="flex gap-x-2 mt-5 items-center">
                 <Phone />
                 <text className="text-lg text-dvBlue">
-                  Telephone : (021) 5794 4801
+                  Telephone : 6221-57944801
                 </text>
               </div>
               <div className="flex gap-x-2 mt-5 items-center">
                 <Phone />
                 <text className="text-lg text-dvBlue">
-                  Fax : (021) 5794 4801
+                  Fax : 6221-57944802
                 </text>
               </div>
               <div className="flex gap-x-2 mt-5 items-center">
                 <Mail />
                 <text className="text-lg text-dvBlue">
-                  Email : ptdvv@dvv.com
+                  E-mail : dw@dwalaw.co.id
                 </text>
               </div>
             </div>
