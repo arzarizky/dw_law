@@ -45,9 +45,8 @@ function main() {
                   </text>
                 </div>
                 <div
-                  className={`transition ease-in-out ${
-                    isHover && "translate-x-3"
-                  }`}
+                  className={`transition ease-in-out ${isHover && "translate-x-3"
+                    }`}
                 >
                   <ArrowForwardIcon color={"white"} boxSize={"24px"} />
                 </div>
@@ -56,7 +55,7 @@ function main() {
           </div>
         </Box>
         <div className="md:flex hidden h-full items-end">
-          <Image src={founder} alt="founder" width={600} />
+          {/* <Image src={founder} alt="founder" width={600} /> */}
         </div>
       </div>
     </div>

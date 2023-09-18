@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins&display=swap');
+
 html,
 body {
   padding: 0;
@@ -21,16 +22,19 @@ a {
 }
 
 h1 {
-  font-family: 'Marcellus', serif;;
+  font-family: 'Marcellus', serif;
+  ;
 }
 
 text {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
+  ;
   color: "#666666";
 }
 
 p {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
+  ;
   color: "#666666";
 }
 
@@ -38,6 +42,7 @@ p {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
@@ -99,7 +104,7 @@ p {
 }
 
 .home {
-  background: linear-gradient(89.73deg, #283F63 3.54%, rgba(32, 55, 90, 0.65) 50.71%, rgba(10, 22, 41, 0.16) 99.87%), url('../assets/bg-home.svg');
+  background: linear-gradient(89.73deg, #283F63 3.54%, rgba(32, 55, 90, 0.65) 50.71%, rgba(10, 22, 41, 0.16) 99.87%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -118,16 +123,16 @@ p {
   background: none;
   display: none;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
   border-radius: 8px
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 

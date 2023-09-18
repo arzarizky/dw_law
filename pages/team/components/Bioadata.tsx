@@ -112,7 +112,7 @@ function Bioadata() {
           <div className="flex gap-x-2 mt-4 items-center">
             <Mail />
             <text className="text-lg text-dvBlue">
-              Email : ragil@dw&associates.co.id
+              Email : ragil@dwalaw.co.id
             </text>
           </div>
         </div>
