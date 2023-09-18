@@ -24,24 +24,6 @@ function AssociatesCard() {
             }`}
         />
       </div>
-      <div
-        onMouseOver={() => setAssociates2(true)}
-        onMouseOut={() => setAssociates2(false)}
-        className="w-full bg-white rounded-md transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100"
-      >
-        <div className="p-5">
-          <h1 className="text-dvBlue text-3xl">Rhendie Rashelda Darmawan</h1>
-          <text className="text-sm">Associates</text>
-          <div className="flex gap-x-2 mt-4 items-center">
-            <Mail />
-            <text className="text-sm">Email : rhendie@dwalaw.co.id</text>
-          </div>
-        </div>
-        <div
-          className={`flex items-end transition-all delay-100 bg-maroon ${associates2 ? "h-1" : "h-0"
-            }`}
-        />
-      </div>
     </div>
   );
 }

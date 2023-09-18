@@ -22,7 +22,7 @@ function Home() {
       <Navbar />
       {/* Mobile Navbar */}
       <div className="md:hidden px-10 sticky top-0 z-50 bg-gradient-to-b from-primary to-secondary h-16 flex justify-between items-center">
-        <h1 className="text-xl text-white">DW Law</h1>
+        <h1 className="text-xl text-white"></h1>
         <HamburgerIcon boxSize={"6"} onClick={onOpen} color="white" />
       </div>
       <MobileDrawer isOpen={isOpen} onOpen={onOpen} onClose={onClose} />

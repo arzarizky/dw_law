@@ -5,7 +5,7 @@ function Footer() {
     <div className="p-20 bg-gradient-to-b from-dvBlue to-darkerBlue">
       <div className="md:flex justify-between mb-3">
         <div>
-          <h1 className="text-3xl text-white mb-3">DW Law</h1>
+          <h1 className="text-3xl text-white mb-3">Address</h1>
           <text className="text-lg text-white">
             Menara Karya 7th Floor Unit B&C <br />H.R. Rasuna Said Block X-5 Kav.1-2<br />
             Jakarta 12950 - Indonesia

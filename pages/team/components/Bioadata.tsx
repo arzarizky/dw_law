@@ -31,11 +31,9 @@ function Bioadata() {
       <div className="md:flex gap-x-40">
         <div className="md:mb-0 mb-5">
           <TeamCard
-            image={
-              <Image src={founder} alt="founder" width={300} height={300} />
-            }
+
             name={"Destivano Wibowo, S.H., LL.M"}
-            position="Founder"
+            position="Founder and Managing Partner"
           />
         </div>
         <div className="md:w-3/4">
@@ -112,7 +110,7 @@ function Bioadata() {
           <div className="flex gap-x-2 mt-4 items-center">
             <Mail />
             <text className="text-lg text-dvBlue">
-              Email : ragil@dwalaw.co.id
+              Ivan : ragil@dwalaw.co.id
             </text>
           </div>
         </div>
