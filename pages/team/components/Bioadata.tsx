@@ -28,12 +28,14 @@ function Bioadata() {
     <div className="md:p-20 p-12 bg-gray-100">
       <h1 className="text-dvBlue text-4xl mb-2">Founder and Managing Partner</h1>
       <hr className="border border-maroon w-founderUnderline mb-4" />
-      <div className="md:flex gap-x-40">
+      <h1 className="text-dvBlue mt-4 text-2xl">Destivano Wibowo, S.H., LL.M</h1>
+      <text className="text-sm">Founder and Managing Partner</text>
+      <div className="md:flex gap-x-40 mt-3">
         <div className="md:w-3/4">
           <Fade in={inViewport}>
             <Box ref={ref}>
               <text className="font-semibold text-2xl">Introduction</text>
-              <p className="text-base font-normal text-justify mt-4 mb-4">
+              <p className="text-base font-normal text-justify mt-1 mb-4">
                 Mr. Wibowo obtained his law degree from University of Trisakti,
                 Faculty of Law, Jakarta, in 1993 and Master of Law (LL.M) from
                 Boston University School of Law, Graduate International Banking
@@ -100,8 +102,6 @@ function Bioadata() {
             </ListItem>
           </UnorderedList>
           <text className="font-semibold text-2xl">Contact</text>
-          <h1 className="text-dvBlue mt-4 text-2xl">Destivano Wibowo, S.H., LL.M</h1>
-          <text className="text-sm">Founder and Managing Partner</text> 
           <div className="flex gap-x-2  items-center">
             <Mail />
             <text className="text-lg text-dvBlue">

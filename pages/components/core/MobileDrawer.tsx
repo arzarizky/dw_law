@@ -17,7 +17,7 @@ function MobileDrawer({ isOpen, onClose }: any) {
       <DrawerContent>
         <DrawerCloseButton />
         <DrawerHeader>
-          <h1 className="text-4xl text-dvBlue">DW Law</h1>
+          {/* <h1 className="text-4xl text-dvBlue">DW Law</h1> */}
         </DrawerHeader>
 
         <DrawerBody>
